@@ -1,6 +1,3 @@
-
-
-
 -- CREATING MASTER TABLES
 
 CREATE TABLE master_leads(
@@ -274,6 +271,7 @@ TRUNCATE TABLE raw_leads
 --Exclude any leads present in leads_reject.
 
 --6. Drop rows from raw_leads to make it ready for fresh data
+
 
 
 
