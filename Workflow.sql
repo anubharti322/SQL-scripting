@@ -232,7 +232,7 @@ WHERE row_num = 1
 	
 SELECT * FROM master_leads
 -----------------------------------------------------------------------------------------
--- MARKING ALL THE ROWS WHICH ARE PROCESSED = 1
+-- TRUNCATE raw_leads for FRESH INSERTION
 
 TRUNCATE TABLE raw_leads
 
@@ -271,6 +271,7 @@ TRUNCATE TABLE raw_leads
 --Exclude any leads present in leads_reject.
 
 --6. Drop rows from raw_leads to make it ready for fresh data
+
 
 
 
